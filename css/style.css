@@ -1,0 +1,49 @@
+/* Reset básico */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* * {
+}
+Significa: Selecione todos os elementos da página.
+
+margin: É o espaço por fora do elemento.
+padding: É o espaço por dentro.
+box-sizing: border-box: Ela faz o padding entrar no cálculo da largura. 
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+/* font-family: Define a fonte.
+   background-color: Cor do fundo. #f5f5f5 é um cinza bem claro, mais confortável do que branco puro
+   color: Cor padrão dos textos.*/
+
+header {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+/* text-align: Alinha o texto, que pode ser left, center, right.
+    padding: 40px 20px: 40px cima e baixo, 20px laterais.*/
+
+header h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+/* rem: Em vez de usar pixels, usamos unidades relativas. 1rem = 16px(normalmente), então 2.5rem = 40px.*/
+
+header p{
+    font-size: 1.1rem;
+}
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;    
+}
+/* max-width: Não queremos que o site fique gigante em monitores grandes, então limita-se em 1200px.
+   mmargin: 30px auto: 30px cima e embaixo, auto nas laterais*/
